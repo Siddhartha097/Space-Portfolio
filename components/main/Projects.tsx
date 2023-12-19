@@ -10,16 +10,19 @@ const Projects = () => {
       <div className='w-full h-full flex flex-col md:flex-row gap-10 px-10'>
         <ProjectCard 
           src='/NextWebsite.png'
-          title='Modern Next.js Portfolio'
+          title='Open AI Summerizer'
+          link='https://open-ai-sunmerizer.vercel.app/'
           desc='Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea adipisci ipsam incidunt reprehenderit, dolores ratione quidem placeat molestias cumque repellat rerum obcaecati deleniti vel porro? Aliquid rerum molestiae alias dolorem.' 
         />
         <ProjectCard 
           src='/CardImage.png'
-          title='Interactive Website Cards'
+          link='https://restaurant-web-one.vercel.app/'
+          title='Restaurant Website'
           desc='Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea adipisci ipsam incidunt reprehenderit, dolores ratione quidem placeat molestias cumque repellat rerum obcaecati deleniti vel porro? Aliquid rerum molestiae alias dolorem.' 
         />
         <ProjectCard 
           src='/SpaceWebsite.png'
+          link='https://space-portfolio-vert.vercel.app/'
           title='Space Themed Website'
           desc='Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea adipisci ipsam incidunt reprehenderit, dolores ratione quidem placeat molestias cumque repellat rerum obcaecati deleniti vel porro? Aliquid rerum molestiae alias dolorem.' 
         />
